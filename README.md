@@ -73,8 +73,6 @@ python -m venv research/.venv
 .\research\.venv\Scripts\python.exe -m unittest discover -s research/tests
 ```
 
-本地程序测试使用脚本模型及受控输入，不依赖模型推理服务。直接阅读报告、图片和已有实验轨迹也不需要启动模型。
-
 ## 运行模型实验
 
 本阶段使用Qwen3.5-9B Q4_K_M、Ollama 0.40.11和OpenAI Python SDK 3.37.0。SDK连接本地Ollama兼容接口。Windows下按以下顺序准备已冻结的模型版本：
@@ -87,7 +85,7 @@ python -m venv research/.venv
 
 模型权重与推理运行时安装到`%LOCALAPPDATA%/BankingDefenseRuntime`，未放入Git仓库。恢复脚本使用已保存的官方清单与摘要校验模型文件。
 
-新电脑先运行正常任务资格检查，生成本机的资格记录。原始采集清单保留了采集时的路径和模型身份信息。
+运行正常任务资格检查：
 
 ```powershell
 .\research\.venv\Scripts\python.exe research/scripts/qualify_model.py --reasoning-effort low --temperature 0.6 --top-p 0.95 --max-tokens 4096 --output research/runs/new-qualification
@@ -104,7 +102,7 @@ python -m venv research/.venv
 
 ## PPT工程
 
-`output/presentation.pptx`是第一次汇报成品。PPT源码使用Node.js、TypeScript和PptxGenJS；可通过`npm ci`安装依赖并运行`npm run typecheck`。构建与PowerPoint渲染脚本使用原始`input/`资料和PPT模板，117MB原始模板未放入仓库；制作新PPT可直接参考已交付的成品、讲稿及第二次报告。
+`output/presentation.pptx`是第一次汇报成品。PPT源码使用Node.js、TypeScript和PptxGenJS；通过`npm ci`安装依赖，运行`npm run typecheck`检查类型。构建与PowerPoint渲染需要`input/`中的原始资料和PPT模板。
 
 ## 上游与来源
 
@@ -112,6 +110,6 @@ python -m venv research/.venv
 - [Ollama](https://github.com/ollama/ollama)与[Qwen](https://github.com/QwenLM)：本地模型推理及模型发布来源。
 - 汇报中的论文图摘录及学术依据见[第一次汇报来源索引](output/source-map.md)。
 
-`PUBLICATION_MANIFEST.json`记录公开快照中原始文件的字节数与摘要。Git属性保留原始字节及换行，供冻结代码和实验记录复核。
+[PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json)记录公开文件的字节数与SHA-256摘要。
 
 公开快照检查结果见[发布验证记录](docs/发布验证.md)。
