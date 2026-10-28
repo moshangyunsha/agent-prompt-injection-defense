@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-10-28T08:46:51.150789+00:00",
+  "verified_at": "2026-10-28T11:37:35.077879+00:00",
   "passed": true,
   "all_pages_visually_reviewed": true,
   "page_count": 12,
@@ -17,11 +17,11 @@
     11,
     12
   ],
-  "markdown_sha256": "115baa4cf8de637516608efcf70606a7b2ba5f5bce3887985e2be27adbd4e6c5",
-  "docx_sha256": "5116b5f44b6d82793a079425bd88b69f96f8552dd3941b6afab85b4ebfb54353",
-  "same_source_paragraphs": 110,
-  "same_source_tables": 1,
-  "native_hyperlinks_checked": 18,
+  "markdown_sha256": "af4cb7de1b603c02f0ee22a0b75b32385b4371eccc30612447ff1f896d7e01e0",
+  "docx_sha256": "a9615459c995c5ff84af3f71168cba474619fcf20308c75853c86edf82135817",
+  "same_source_paragraphs": 106,
+  "same_source_tables": 2,
+  "native_hyperlinks_checked": 19,
   "local_links": [
     {
       "label": "local_llm.py",
@@ -89,6 +89,16 @@
       "sha256": "f625ee826f46586fe3f407929df112ff7c08ce00f9d3bed2f6a62b2c6b218b9e"
     },
     {
+      "label": "V0执行边界复核",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\evidence\\execution-boundary-verification.json",
+      "sha256": "b652914c6fa505abc6a9fafdfafd4e24855bb2739d7497f6611472cae0c840fa"
+    },
+    {
+      "label": "135个候选调用的规则与执行记录",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\V0执行边界逐调用复核.csv",
+      "sha256": "bb7ca26623a56a347c176635c76810de19d13debe8b5d8336f002332bcffce46"
+    },
+    {
       "label": "完整汇总",
       "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\aggregate.json",
       "sha256": "ad66aedb4b6c2cd88dedc2b80728a196a5a76bbb5348a186c7c799b4fbdb8ef8"
@@ -97,11 +107,6 @@
       "label": "144条逐项结果",
       "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\全部轨迹指标.csv",
       "sha256": "87b79db7fb802788fafeaeef500010e52a2c29c9396b03f040a96be4fdb2601f"
-    },
-    {
-      "label": "135个候选写调用",
-      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\全部候选写调用.csv",
-      "sha256": "237621fd39a3acfb133c065c3e4f1e86136858549df7924e8f6ee331272ea5bc"
     },
     {
       "label": "seed17",
@@ -139,12 +144,12 @@
   "writing_standard_source": "C:\\Users\\34301\\Desktop\\PPT\\文字生成规范.md",
   "writing_standard_sha256": "7fabaf4bac726284b3d6dacbf8e6d5905b469d5ed6833a24bd6417386ef7eeff",
   "renderer": {
-    "word_version": "16.0",
     "reason": "Packaged renderer unavailable; inspect packaged-renderer-log.txt",
-    "renderer": "native Microsoft Word COM PDF export and bundled Poppler",
-    "pages": 12,
     "readonly": true,
-    "existing_user_documents": 0
+    "renderer": "native Microsoft Word COM PDF export and bundled Poppler",
+    "existing_user_documents": 0,
+    "pages": 12,
+    "word_version": "16.0"
   },
   "frozen_engineering_files_unchanged": 24,
   "formal_records": 144,
@@ -155,6 +160,8 @@
     "parameter_outside_static_policy": 4,
     "write_limit_reached": 1
   },
+  "primary_evaluation": "Actual enforcement of frozen V0 execution rules; complete task utility retained as a separate metric.",
+  "execution_boundary_verification_sha256": "b652914c6fa505abc6a9fafdfafd4e24855bb2739d7497f6611472cae0c840fa",
   "original_record_screenshots": 4,
   "screenshot_provenance_sha256": "e15170ebb9985e07401a49e1e64f2347156383510ff1a4c3a9f4bd554447353e",
   "editorial_review": {

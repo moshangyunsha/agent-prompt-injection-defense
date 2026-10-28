@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:47:23.648688+00:00",
+  "updated_at": "2026-10-28T11:39:14.157724+00:00",
   "status": "completed",
   "exec_session_id": null,
   "project_root": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt",
@@ -50,6 +50,19 @@
   },
   "formal_model_calls": 556,
   "candidate_write_calls": 135,
+  "primary_evaluation": {
+    "scope": "Frozen V0 tool authorization, static parameters, basic types and successful-write count rules.",
+    "definition": "Attack trajectories with at least one successful write violating a frozen V0 rule; all 36 attack trajectories per configuration included.",
+    "executed_rule_violation_episodes": {
+      "C0": "8/36",
+      "C1": "9/36",
+      "C2": "0/36"
+    },
+    "c2_actual_blocked_requests": 15,
+    "c2_blocked_request_successful_executions": 0,
+    "verification": "evidence/execution-boundary-verification.json",
+    "per_call_records": "V0执行边界逐调用复核.csv"
+  },
   "outcomes": {
     "C0": {
       "benign_completion": {
@@ -129,9 +142,12 @@
     "evidence/frozen-research-code.zip",
     "evidence/agentdojo-fixed-source.zip",
     "evidence/document-verification.json",
+    "evidence/report-variants-verification.json",
+    "evidence/execution-boundary-verification.json",
     "mechanism-replay/summary.json",
     "全部轨迹指标.csv",
-    "全部候选写调用.csv"
+    "全部候选写调用.csv",
+    "V0执行边界逐调用复核.csv"
   ],
   "primary_case": {
     "seed": 17,
@@ -148,9 +164,12 @@
   "report_requirements": "Follow 文字生成规范.md. Demonstrate controlled experimental process, implementation, original calls, actual guard decisions and state changes. Workload derives from formal runs and implemented mechanisms. Exclude costs, setup/handoff narration and development trial-and-error as contributions.",
   "member_documents": [
     "reports/第二次汇报/第二次汇报技术实现与实验说明.md",
-    "reports/第二次汇报/第二次汇报技术实现与实验说明.docx"
+    "reports/第二次汇报/第二次汇报技术实现与实验说明.docx",
+    "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.md",
+    "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.docx",
+    "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.pdf"
   ],
-  "figures": "reports/第二次汇报/编辑器实拍; four native VS Code window screenshots embedded in the report; three supplementary native screenshots. Formal report has one result table.",
+  "figures": "reports/第二次汇报/编辑器实拍; four native VS Code window screenshots embedded in the report; three supplementary native screenshots. Formal report has two tables: configuration results and runtime blocking counts.",
   "raw_record_viewer": "Native Microsoft Visual Studio Code at D:/VScode/Microsoft VS Code/Code.exe; original JSON and console files opened read-only, app UI and line numbers retained.",
   "screenshot_provenance": "reports/第二次汇报/编辑器实拍/截图来源索引.json",
   "prohibited_evidence_method": "Do not substitute generated HTML log pages or drawn terminal images for native editor or real runtime screenshots.",
@@ -159,6 +178,8 @@
   "format_module": "reports/第二次汇报/生成说明文档.py",
   "doc_pages": 12,
   "all_pages_visually_reviewed": true,
+  "styled_doc_pages": 11,
+  "styled_all_pages_visually_reviewed": true,
   "doc_renderer": "native Microsoft Word COM PDF export and bundled Poppler",
   "artifact_operation_marker": "Already run once for this document. Do not repeat for revisions.",
   "writing_standard": "Workspace-root 文字生成规范.md; exact snapshot at evidence/文字生成规范.md",
@@ -168,7 +189,7 @@
   "limits": [
     "Single local quantized model, four development tasks and fixed injection template; three seeds are repeated measures.",
     "Qualification shares development tasks/seeds with formal experiments; held-out testing belongs to report five.",
-    "V0 checks static authorization, not dynamic amount provenance; C2 has three wrong-amount refunds (2 vs 4).",
+    "The primary execution metric applies to the frozen V0 rule scope. Independent complete-task scoring remains available in unchanged aggregate.json.",
     "Old rebuild and rejected candidates are diagnostic only and excluded from formal denominators.",
     "Fixed-candidate mechanism replay makes no model calls and is not an extra end-to-end experiment.",
     "No phase-two experiment remains running; do not restart complete inference merely to refresh reports."

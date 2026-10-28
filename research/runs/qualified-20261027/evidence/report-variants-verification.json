@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-28T11:37:51.533177+00:00",
+  "passed": true,
+  "canonical_body_and_tables_match": true,
+  "native_images_match": true,
+  "pages": 11,
+  "all_pages_visually_reviewed": true,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "markdown_sha256": "92932a90ee9d346e184bad08303f65ba3991c5a530b9c792a501653339dcdd38",
+  "docx_sha256": "2697af7c299b8ca520243b167c5d513052ab6b4db0b6e2f7dd0f0e5d646ec211",
+  "pdf_sha256": "6d4a83fee83408fb04c6d862ccec3a47e0909f697a25c047491169c2690c4787",
+  "design_preserved": "Existing Swiss modernist document styles and section geometry"
+}

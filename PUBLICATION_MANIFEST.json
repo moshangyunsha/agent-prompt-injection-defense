@@ -347,8 +347,8 @@
       "sha256": "ad66aedb4b6c2cd88dedc2b80728a196a5a76bbb5348a186c7c799b4fbdb8ef8"
     },
     "research/runs/qualified-20261027/continuation-state.json": {
-      "bytes": 7134,
-      "sha256": "ba4dbbf16e319a71d3054c4c6db5c9589f09bfd955175286b225a665e5b3def6"
+      "bytes": 8374,
+      "sha256": "9add2f06a4985f50eaf259f1f3b35cd461df6b937770fa0e03d72ecec502a521"
     },
     "research/runs/qualified-20261027/evidence/agentdojo-fixed-source.zip": {
       "bytes": 184242,
@@ -363,8 +363,8 @@
       "sha256": "e60f9db40c11cfb0c74fa083849510a5c4780a2be9b62ddc5a233a0ec1c59e01"
     },
     "research/runs/qualified-20261027/evidence/document-verification.json": {
-      "bytes": 7729,
-      "sha256": "67477227c85e6ec39e4a0ccdd07ccc22460621cc4cf23346e2af755c485cfe79"
+      "bytes": 8295,
+      "sha256": "ec710feb3461db59b746f60b6549dd4c6895149b902e78236aad9718d2ae95d7"
     },
     "research/runs/qualified-20261027/evidence/frozen-identity.json": {
       "bytes": 17076,
@@ -1335,24 +1335,24 @@
       "sha256": "844794c70274171212e8c9c70827e781654319c8ace146958039fa4558c6c0bd"
     },
     "reports/第二次汇报/第二次汇报技术实现与实验说明.md": {
-      "bytes": 21976,
-      "sha256": "115baa4cf8de637516608efcf70606a7b2ba5f5bce3887985e2be27adbd4e6c5"
+      "bytes": 20825,
+      "sha256": "af4cb7de1b603c02f0ee22a0b75b32385b4371eccc30612447ff1f896d7e01e0"
     },
     "reports/第二次汇报/第二次汇报技术实现与实验说明.docx": {
-      "bytes": 734517,
-      "sha256": "5116b5f44b6d82793a079425bd88b69f96f8552dd3941b6afab85b4ebfb54353"
+      "bytes": 734138,
+      "sha256": "a9615459c995c5ff84af3f71168cba474619fcf20308c75853c86edf82135817"
     },
     "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.md": {
-      "bytes": 23963,
-      "sha256": "cb026d537c172c27785cab099c6d4efedeafe1805ee261d1c04b663d49bb5581"
+      "bytes": 21073,
+      "sha256": "92932a90ee9d346e184bad08303f65ba3991c5a530b9c792a501653339dcdd38"
     },
     "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.docx": {
-      "bytes": 803571,
-      "sha256": "8cba129d66ed5f4ebca46b29fbc48f9ec82e08cb4e1936d986d8914b6dd5dd73"
+      "bytes": 712562,
+      "sha256": "2697af7c299b8ca520243b167c5d513052ab6b4db0b6e2f7dd0f0e5d646ec211"
     },
     "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义.pdf": {
-      "bytes": 859949,
-      "sha256": "46b50e136e0a83c74689b38ba951062a61db1eb1b4d03db28ff88aa18b58e7e5"
+      "bytes": 3003177,
+      "sha256": "6d4a83fee83408fb04c6d862ccec3a47e0909f697a25c047491169c2690c4787"
     },
     "reports/第二次汇报/恢复冻结模型.py": {
       "bytes": 864,
@@ -1441,10 +1441,28 @@
     "reports/第二次汇报/第二次汇报技术实现与实验说明_瑞士现代主义_assets/04-种子42原始运行日志-ee47173d.png": {
       "bytes": 134376,
       "sha256": "ee47173d6403a57e3903d082aaa0225dc3943fad6286aad1da9dc5514a194450"
+    },
+    "reports/第二次汇报/复核执行边界.py": {
+      "bytes": 5790,
+      "sha256": "7c27023380bc6cc2a22125301e24ab25f4f7e305461320f29867ab017da9451b"
+    },
+    "research/runs/qualified-20261027/V0执行边界逐调用复核.csv": {
+      "bytes": 17302,
+      "sha256": "bb7ca26623a56a347c176635c76810de19d13debe8b5d8336f002332bcffce46"
+    },
+    "research/runs/qualified-20261027/evidence/execution-boundary-verification.json": {
+      "bytes": 25182,
+      "sha256": "b652914c6fa505abc6a9fafdfafd4e24855bb2739d7497f6611472cae0c840fa"
+    },
+    "research/runs/qualified-20261027/evidence/report-variants-verification.json": {
+      "bytes": 675,
+      "sha256": "f2875796928a891905b31e6186680f0bb0d2166e62c139bb1678d7736e085d50"
     }
   },
   "formal_traces": 144,
   "smoke_traces": 8,
   "qualified_benign_traces": 12,
-  "note": "Original copied files are byte-identical to the local research archive. README and Git sharing configuration are authored for this public snapshot."
+  "note": "Original copied files are byte-identical to the local research archive. README and Git sharing configuration are authored for this public snapshot.",
+  "updated_at": "2026-10-28T11:40:01.277860+00:00",
+  "report_revision": "Execution-before-write authorization study; primary metric follows the original frozen V0 rules. Original traces and comprehensive scores are unchanged."
 }
