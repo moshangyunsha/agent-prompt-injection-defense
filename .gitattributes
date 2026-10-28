@@ -1,0 +1,11 @@
+# Preserve frozen source and trace bytes on every operating system.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pptx binary
+*.docx binary
+*.pdf binary
+*.zip binary
+research/runs/** linguist-generated=true
+reports/** linguist-documentation=true

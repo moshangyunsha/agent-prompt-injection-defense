@@ -1,0 +1,36 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environments, caches, runtime binaries and model weights
+.venv/
+venv/
+node_modules/
+.npm-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.gguf
+*.safetensors
+*.exe
+*.dll
+*.part
+*.pid
+
+# Local work, source templates and rendering intermediates
+input/
+_qa/
+.vscode/
+.idea/
+~$*
+*.tmp
+research/runs/**/attempts/
+research/runs/**/infrastructure-errors/

@@ -1,0 +1,7 @@
+{
+  "candidate_groups": 36,
+  "groups_with_blocks": 8,
+  "blocked_calls": 11,
+  "model_calls": 0,
+  "kind": "mechanism_replay_no_model"
+}

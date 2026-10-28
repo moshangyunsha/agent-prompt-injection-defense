@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-28T16:17:03.1113295+08:00",
+  "application": "Microsoft Visual Studio Code",
+  "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C2.json",
+  "source_sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905",
+  "line": 3247,
+  "navigation_line": 3259,
+  "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\02-C2原始执行审计.png",
+  "screenshot_sha256": "fb7d5920be72fafe5b795985a1e078c2bfd920af3655a5c751f4031f78c10d8b",
+  "capture_method": "CopyFromScreen of the foreground native VS Code window",
+  "source_text_modified": false,
+  "original_run_screenshot": false
+}

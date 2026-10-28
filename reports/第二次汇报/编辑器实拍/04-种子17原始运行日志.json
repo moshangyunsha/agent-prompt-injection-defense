@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-28T16:20:37.0314002+08:00",
+  "application": "Microsoft Visual Studio Code",
+  "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17-console.txt",
+  "source_sha256": "9fb4a6ff5d6062fc2f694085347319547674bc3824f70b3985859998308f3e1b",
+  "line": 23,
+  "navigation_line": 49,
+  "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\04-种子17原始运行日志.png",
+  "screenshot_sha256": "eb58c4efb6960fdfe1f7436aa1f24c2bb2f16ab055bc278e936900db2d49b7c7",
+  "capture_method": "CopyFromScreen of the foreground native VS Code window",
+  "source_text_modified": false,
+  "original_run_screenshot": false
+}

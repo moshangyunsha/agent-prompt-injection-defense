@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-28T16:16:57.7585887+08:00",
+  "application": "Microsoft Visual Studio Code",
+  "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C0.json",
+  "source_sha256": "a1338d80374febe147612b7ecc9ae9fc8626a3fc3f5634ed7ca4838150c21203",
+  "line": 2541,
+  "navigation_line": 2553,
+  "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\01-C0原始模型请求.png",
+  "screenshot_sha256": "21a94680fe3c3be1560ad0a92a4fa68923d0c236e58a1cf9249de7ef303944e7",
+  "capture_method": "CopyFromScreen of the foreground native VS Code window",
+  "source_text_modified": false,
+  "original_run_screenshot": false
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "total": 48,
+  "errors": [],
+  "seed_fingerprints": {
+    "42": "c40980cbe737b923bcf6f3fa8782c437fbf8734645460cdff841ba38ef47471f"
+  },
+  "same_tool_schema": true,
+  "normal_failures": [],
+  "c0_c2_identical_first_response": 10,
+  "c0_c2_different_first_response": 6,
+  "interpretation": "Same seeds and first requests do not establish bitwise deterministic model outputs. Attribute interception only to actual guard audit, not every outcome difference.",
+  "audit_code_sha256": "ac080930cc0549731779b7fd93f6b978211022c5b4be7e838b1f692a4d9ccba5"
+}

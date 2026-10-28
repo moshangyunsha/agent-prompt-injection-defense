@@ -1,0 +1,1 @@
+{"name":"prompt-injection-ppt","version":"1.0.0","private":true,"type":"module","scripts":{"build":"tsx src/main.ts","revise":"tsx src/main.ts --preserve-user-edits","typecheck":"tsc --noEmit","validate":"python scripts/validate.py","render":"python scripts/render.py"},"dependencies":{"pdfjs-dist":"5.4.296","pptxgenjs":"4.0.1","tsx":"4.20.6","typescript":"5.9.3"}}

@@ -1,0 +1,169 @@
+{
+  "verified_at": "2026-10-28T08:46:51.150789+00:00",
+  "passed": true,
+  "all_pages_visually_reviewed": true,
+  "page_count": 12,
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "markdown_sha256": "115baa4cf8de637516608efcf70606a7b2ba5f5bce3887985e2be27adbd4e6c5",
+  "docx_sha256": "5116b5f44b6d82793a079425bd88b69f96f8552dd3941b6afab85b4ebfb54353",
+  "same_source_paragraphs": 110,
+  "same_source_tables": 1,
+  "native_hyperlinks_checked": 18,
+  "local_links": [
+    {
+      "label": "local_llm.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\local_llm.py",
+      "sha256": "ad1013a3db6d9d8efd55566e858c12213799fbced94a642cb15d3f2651a395c7"
+    },
+    {
+      "label": "policies.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\policies.py",
+      "sha256": "1a8339b98db6679eb0ebbb4a673c447cd6678e4634a4849184bc66be0030451a"
+    },
+    {
+      "label": "v0_executor.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\v0_executor.py",
+      "sha256": "3182fded99a5ee577daf2c310cc43b40767bca282697bbc3d5d8aee35b54b0a2"
+    },
+    {
+      "label": "scoring.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\scoring.py",
+      "sha256": "d2ca812c7c9f829a32df771e90d2e1dffff8dd3c10e2a89767adc5923249a947"
+    },
+    {
+      "label": "支出统计轨迹",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_1__none__C0.json",
+      "sha256": "b2b3e075b788fa78016fec22788efe62ef7e88a9098381458bd749535c09347e"
+    },
+    {
+      "label": "差额退款轨迹",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_3__none__C0.json",
+      "sha256": "4582794c9bbb41b16f0972f479e1703802550443df1e44824c669711c74da9dc"
+    },
+    {
+      "label": "原额退款轨迹",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_4__none__C0.json",
+      "sha256": "db3bcbabd67c9dcdf8a0c698cba981d0ef214a1828bb79d4f2643d864bdcbc45"
+    },
+    {
+      "label": "新增周期付款轨迹",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__none__C0.json",
+      "sha256": "ff73c419fdf4e88d57bd366541459ed037f25a46ece6354d4ccb21a98c73c298"
+    },
+    {
+      "label": "pipelines.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\pipelines.py",
+      "sha256": "57a00fca1f3b9f6e7991381cfe4c91b510d59668c0d5fefb7718a788cf014709"
+    },
+    {
+      "label": "runner.py",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\src\\banking_defense\\runner.py",
+      "sha256": "07b700d2b2c3086c33832d60cea99507162ecf77c0fcb20f8ceb7a5581513a17"
+    },
+    {
+      "label": "user_task_6 / injection_task_4 / C0",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C0.json",
+      "sha256": "a1338d80374febe147612b7ecc9ae9fc8626a3fc3f5634ed7ca4838150c21203"
+    },
+    {
+      "label": "user_task_6 / injection_task_4 / C2",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C2.json",
+      "sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905"
+    },
+    {
+      "label": "固定调用复放汇总",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\mechanism-replay\\summary.json",
+      "sha256": "f625ee826f46586fe3f407929df112ff7c08ce00f9d3bed2f6a62b2c6b218b9e"
+    },
+    {
+      "label": "完整汇总",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\aggregate.json",
+      "sha256": "ad66aedb4b6c2cd88dedc2b80728a196a5a76bbb5348a186c7c799b4fbdb8ef8"
+    },
+    {
+      "label": "144条逐项结果",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\全部轨迹指标.csv",
+      "sha256": "87b79db7fb802788fafeaeef500010e52a2c29c9396b03f040a96be4fdb2601f"
+    },
+    {
+      "label": "135个候选写调用",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\全部候选写调用.csv",
+      "sha256": "237621fd39a3acfb133c065c3e4f1e86136858549df7924e8f6ee331272ea5bc"
+    },
+    {
+      "label": "seed17",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17-console.txt",
+      "sha256": "9fb4a6ff5d6062fc2f694085347319547674bc3824f70b3985859998308f3e1b"
+    },
+    {
+      "label": "seed73",
+      "path": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed73-console.txt",
+      "sha256": "a55ff0b74261e4660ce1df6345a4e51e0e601414b1107a24073214f851dc1ae6"
+    }
+  ],
+  "figures": [
+    {
+      "caption": "图1 seed42批次的48项运行记录",
+      "path": "编辑器实拍/04-种子42原始运行日志.png",
+      "sha256": "ee47173d6403a57e3903d082aaa0225dc3943fad6286aad1da9dc5514a194450"
+    },
+    {
+      "caption": "图2 C0修改既有周期付款的请求及工具返回",
+      "path": "编辑器实拍/01-C0原始模型请求.png",
+      "sha256": "21a94680fe3c3be1560ad0a92a4fa68923d0c236e58a1cf9249de7ef303944e7"
+    },
+    {
+      "caption": "图3 C2对修改请求和新增请求的执行审计",
+      "path": "编辑器实拍/02-C2原始执行审计.png",
+      "sha256": "fb7d5920be72fafe5b795985a1e078c2bfd920af3655a5c751f4031f78c10d8b"
+    },
+    {
+      "caption": "图4 C2执行后的周期付款记录",
+      "path": "编辑器实拍/03-C2原始付款状态.png",
+      "sha256": "17361aeca573c09839bbfb8c868230914c2e7cf03213440c5f5a634ce747186e"
+    }
+  ],
+  "writing_standard_source": "C:\\Users\\34301\\Desktop\\PPT\\文字生成规范.md",
+  "writing_standard_sha256": "7fabaf4bac726284b3d6dacbf8e6d5905b469d5ed6833a24bd6417386ef7eeff",
+  "renderer": {
+    "word_version": "16.0",
+    "reason": "Packaged renderer unavailable; inspect packaged-renderer-log.txt",
+    "renderer": "native Microsoft Word COM PDF export and bundled Poppler",
+    "pages": 12,
+    "readonly": true,
+    "existing_user_documents": 0
+  },
+  "frozen_engineering_files_unchanged": 24,
+  "formal_records": 144,
+  "formal_model_calls": 556,
+  "candidate_write_calls": 135,
+  "actual_blocked_reasons": {
+    "tool_not_authorized": 10,
+    "parameter_outside_static_policy": 4,
+    "write_limit_reached": 1
+  },
+  "original_record_screenshots": 4,
+  "screenshot_provenance_sha256": "e15170ebb9985e07401a49e1e64f2347156383510ff1a4c3a9f4bd554447353e",
+  "editorial_review": {
+    "audience": "Course instructor; student research group authorship",
+    "task_procedures": 4,
+    "sampling_explained_before_case": true,
+    "screenshot_production_narration_removed": true,
+    "generic_continuation_claims_removed": true,
+    "whole_report_reviewed": true
+  },
+  "review": "Every final page inspected for Chinese text, original-record screenshots, result table, clipping and pagination."
+}

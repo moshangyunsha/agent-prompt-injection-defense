@@ -1,0 +1,152 @@
+{
+  "kind": "native_editor_window_capture",
+  "application": "Microsoft Visual Studio Code",
+  "capture_method": "CopyFromScreen of actual foreground editor windows",
+  "sources": {
+    "research/runs/qualified-20261027/main-seed17/traces/user_task_6__injection_task_4__C0.json": {
+      "path": "research/runs/qualified-20261027/main-seed17/traces/user_task_6__injection_task_4__C0.json",
+      "sha256": "a1338d80374febe147612b7ecc9ae9fc8626a3fc3f5634ed7ca4838150c21203"
+    },
+    "research/runs/qualified-20261027/main-seed17/traces/user_task_6__injection_task_4__C2.json": {
+      "path": "research/runs/qualified-20261027/main-seed17/traces/user_task_6__injection_task_4__C2.json",
+      "sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905"
+    },
+    "research/runs/qualified-20261027/main-seed42-console.txt": {
+      "path": "research/runs/qualified-20261027/main-seed42-console.txt",
+      "sha256": "6dce1af9f4685e8500e239c1ca747e3c3c7902ee6ef123514dde2457e3cb0cf4"
+    },
+    "research/runs/qualified-20261027/main-seed17-console.txt": {
+      "path": "research/runs/qualified-20261027/main-seed17-console.txt",
+      "sha256": "9fb4a6ff5d6062fc2f694085347319547674bc3824f70b3985859998308f3e1b"
+    },
+    "research/runs/qualified-20261027/main-seed73-console.txt": {
+      "path": "research/runs/qualified-20261027/main-seed73-console.txt",
+      "sha256": "a55ff0b74261e4660ce1df6345a4e51e0e601414b1107a24073214f851dc1ae6"
+    }
+  },
+  "screenshots": [
+    {
+      "captured_at": "2026-10-28T16:16:57.7585887+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C0.json",
+      "source_sha256": "a1338d80374febe147612b7ecc9ae9fc8626a3fc3f5634ed7ca4838150c21203",
+      "line": 2541,
+      "navigation_line": 2553,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\01-C0原始模型请求.png",
+      "screenshot_sha256": "21a94680fe3c3be1560ad0a92a4fa68923d0c236e58a1cf9249de7ef303944e7",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "c0",
+      "path": "reports/第二次汇报/编辑器实拍/01-C0原始模型请求.png",
+      "sha256": "21a94680fe3c3be1560ad0a92a4fa68923d0c236e58a1cf9249de7ef303944e7",
+      "metadata": "reports/第二次汇报/编辑器实拍/01-C0原始模型请求.json"
+    },
+    {
+      "captured_at": "2026-10-28T16:17:03.1113295+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C2.json",
+      "source_sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905",
+      "line": 3247,
+      "navigation_line": 3259,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\02-C2原始执行审计.png",
+      "screenshot_sha256": "fb7d5920be72fafe5b795985a1e078c2bfd920af3655a5c751f4031f78c10d8b",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "c2",
+      "path": "reports/第二次汇报/编辑器实拍/02-C2原始执行审计.png",
+      "sha256": "fb7d5920be72fafe5b795985a1e078c2bfd920af3655a5c751f4031f78c10d8b",
+      "metadata": "reports/第二次汇报/编辑器实拍/02-C2原始执行审计.json"
+    },
+    {
+      "captured_at": "2026-10-28T16:17:07.1869238+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C2.json",
+      "source_sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905",
+      "line": 3464,
+      "navigation_line": 3476,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\03-C2原始付款状态.png",
+      "screenshot_sha256": "17361aeca573c09839bbfb8c868230914c2e7cf03213440c5f5a634ce747186e",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "states",
+      "path": "reports/第二次汇报/编辑器实拍/03-C2原始付款状态.png",
+      "sha256": "17361aeca573c09839bbfb8c868230914c2e7cf03213440c5f5a634ce747186e",
+      "metadata": "reports/第二次汇报/编辑器实拍/03-C2原始付款状态.json"
+    },
+    {
+      "captured_at": "2026-10-28T16:20:32.4889868+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed42-console.txt",
+      "source_sha256": "6dce1af9f4685e8500e239c1ca747e3c3c7902ee6ef123514dde2457e3cb0cf4",
+      "line": 23,
+      "navigation_line": 49,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\04-种子42原始运行日志.png",
+      "screenshot_sha256": "ee47173d6403a57e3903d082aaa0225dc3943fad6286aad1da9dc5514a194450",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "batch",
+      "path": "reports/第二次汇报/编辑器实拍/04-种子42原始运行日志.png",
+      "sha256": "ee47173d6403a57e3903d082aaa0225dc3943fad6286aad1da9dc5514a194450",
+      "metadata": "reports/第二次汇报/编辑器实拍/04-种子42原始运行日志.json"
+    }
+  ],
+  "supplementary": [
+    {
+      "captured_at": "2026-10-28T16:17:11.1956631+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17\\traces\\user_task_6__injection_task_4__C2.json",
+      "source_sha256": "dd0e6f98bc34f582573f083bc0387da5a68d699deedee1f40831a8250495c905",
+      "line": 3137,
+      "navigation_line": 3149,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\补充-C2原始合法请求.png",
+      "screenshot_sha256": "6c809b542888d4bf937545a5a4965b1d927f60cd4820ccb1ff23f8e7df556791",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "supplementary",
+      "path": "reports/第二次汇报/编辑器实拍/补充-C2原始合法请求.png",
+      "sha256": "6c809b542888d4bf937545a5a4965b1d927f60cd4820ccb1ff23f8e7df556791",
+      "metadata": "reports/第二次汇报/编辑器实拍/补充-C2原始合法请求.json"
+    },
+    {
+      "captured_at": "2026-10-28T16:20:37.0314002+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed17-console.txt",
+      "source_sha256": "9fb4a6ff5d6062fc2f694085347319547674bc3824f70b3985859998308f3e1b",
+      "line": 23,
+      "navigation_line": 49,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\04-种子17原始运行日志.png",
+      "screenshot_sha256": "eb58c4efb6960fdfe1f7436aa1f24c2bb2f16ab055bc278e936900db2d49b7c7",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "supplementary",
+      "path": "reports/第二次汇报/编辑器实拍/04-种子17原始运行日志.png",
+      "sha256": "eb58c4efb6960fdfe1f7436aa1f24c2bb2f16ab055bc278e936900db2d49b7c7",
+      "metadata": "reports/第二次汇报/编辑器实拍/04-种子17原始运行日志.json"
+    },
+    {
+      "captured_at": "2026-10-28T16:20:41.6059683+08:00",
+      "application": "Microsoft Visual Studio Code",
+      "source_file": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\research\\runs\\qualified-20261027\\main-seed73-console.txt",
+      "source_sha256": "a55ff0b74261e4660ce1df6345a4e51e0e601414b1107a24073214f851dc1ae6",
+      "line": 23,
+      "navigation_line": 49,
+      "screenshot": "C:\\Users\\34301\\Desktop\\PPT\\prompt-injection-ppt\\reports\\第二次汇报\\编辑器实拍\\04-种子73原始运行日志.png",
+      "screenshot_sha256": "50587c021872882bb2567ef07e17be651fa50011db9b85d3a58b25c9c5886922",
+      "capture_method": "CopyFromScreen of the foreground native VS Code window",
+      "source_text_modified": false,
+      "original_run_screenshot": false,
+      "view": "supplementary",
+      "path": "reports/第二次汇报/编辑器实拍/04-种子73原始运行日志.png",
+      "sha256": "50587c021872882bb2567ef07e17be651fa50011db9b85d3a58b25c9c5886922",
+      "metadata": "reports/第二次汇报/编辑器实拍/04-种子73原始运行日志.json"
+    }
+  ],
+  "original_files_modified": false,
+  "description": "Original experiment files opened read-only in native VS Code. These are editor inspection screenshots taken on 2026-10-28, not original model-run screen recordings."
+}

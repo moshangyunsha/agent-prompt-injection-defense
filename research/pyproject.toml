@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-injection-banking-defense"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "agentdojo @ git+https://github.com/ethz-spylab/agentdojo.git@089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "openai>=1.59.7",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "name": "banking-qwen35-9b:latest",
+      "model": "banking-qwen35-9b:latest",
+      "size": 5619203440,
+      "digest": "0d31e175041be9dccf4007c0af652a88720c3bf0c0e1732f976f4492b96077d9",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-10-27T21:33:03.6477147+08:00",
+      "size_vram": 5619203440,
+      "context_length": 8192,
+      "runner": "llamacpp"
+    }
+  ],
+  "captured_at": "2026-10-27T13:29:06.264340+00:00"
+}
